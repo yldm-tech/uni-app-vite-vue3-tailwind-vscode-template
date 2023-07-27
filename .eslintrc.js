@@ -24,8 +24,9 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
-    'vue/multi-word-component-names': 1
+    'vue/multi-word-component-names': 0
   },
+  ignorePatterns: ['projects/**/*', '**/index.html'],
   overrides: [
     {
       files: ['*.ts', '*.mts', '*.cts', '*.tsx', '*.vue'],

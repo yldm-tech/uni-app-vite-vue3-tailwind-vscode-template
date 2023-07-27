@@ -94,8 +94,4 @@ onLoad(() => {
 .content {
   @apply flex flex-col items-center;
 }
-
-.test {
-  @apply flex items-center justify-center h-[100px] w-[100px] rounded-[40px] bg-[#123456] bg-opacity-[0.54] text-[#ffffff] #{!important};
-}
 </style>
